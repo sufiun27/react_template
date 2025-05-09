@@ -1,0 +1,15 @@
+src/
+├── components/
+│   └── Header.jsx
+│   └── Sidebar.jsx
+│   └── Footer.jsx
+├── layouts/
+│   └── MainLayout.jsx      # <- Your main layout here
+├── pages/
+│   └── Home.jsx
+│   └── About.jsx
+│   └── Contact.jsx
+├── routes/
+│   └── AppRoutes.jsx       # <- Routing logic with layout wrapping routes
+├── App.jsx
+└── main.jsx
