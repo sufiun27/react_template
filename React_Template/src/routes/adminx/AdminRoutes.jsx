@@ -29,7 +29,7 @@ export default function AdminRoutes() {
     return (
         // <BrowserRouter>
             <Routes>
-                <Route path="/" element={<AdminLayout />}>
+                <Route path="/adminx" element={<AdminLayout />}>
                     <Route index element={<Home />} />
                     <Route path="about" element={<About />} />
                     <Route path="admin" element={<Admin />} />
