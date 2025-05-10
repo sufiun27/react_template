@@ -1,6 +1,6 @@
 //! admin store path: features/adminx
 import { combineReducers } from 'redux';
-import CounterSlice from './counter/CounterSlice'
+import CounterSlice from '@featuresA/counter/CounterSlice'
 
  const AdminStore = combineReducers({
     counter: CounterSlice,

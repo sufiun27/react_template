@@ -1,8 +1,8 @@
 import React from 'react'
 import { Outlet } from "react-router";
-import Header from '../../components/adminx/Header';
-import Footer from '../../components/adminx/Footer';
-import Navbar from '../../components/adminx/Navbar';
+import Header from '@componentsA/Header';
+import Footer from '@componentsA/Footer';
+import Navbar from '@componentsA/Navbar';
 
 export default function AdminLayout() {
   return (

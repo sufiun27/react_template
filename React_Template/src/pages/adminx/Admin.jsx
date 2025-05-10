@@ -1,6 +1,6 @@
 import React from 'react'
 import { useSelector, useDispatch } from 'react-redux';
-import { increment, decrement } from '../../features/adminx/counter/CounterSlice';
+import { increment, decrement } from '@featuresA/counter/CounterSlice';
 
 export default function Admin() {
   const count = useSelector((state) => state.admin.counter.value);

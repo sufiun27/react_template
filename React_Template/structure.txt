@@ -13,3 +13,17 @@ src/
 │   └── AppRoutes.jsx       # <- Routing logic with layout wrapping routes
 ├── App.jsx
 └── main.jsx
+
+
+src/
+├── api/
+│   ├── axios.js           ← Axios base instance
+│   └── endpoints.js       ← API URL endpoints (optional)
+│
+├── services/
+│   └── userService.js     ← Reusable API service functions
+│
+└── features/
+    └── users/
+        ├── UserList.jsx   ← Component using the API
+        └── userSlice.js   ← (optional: Redux or other logic)
